@@ -1,0 +1,106 @@
+
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+/* body{
+    font-family: 'Besley', serif;
+    /* background-color:#FBBF24; */
+    /* margin-top: 1rem; */
+    /* margin:0px;
+    padding:0 px;
+    
+} */ 
+
+
+body,html{
+    font-family: 'Besley', serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#FBBF24;
+}
+
+nav {
+    /* for removing the padding from top and side */
+    padding: 0 0 0.2rem 0;
+}
+
+
+
+:root
+{
+    --primary-color:#5B21B6;
+    --second-color:#FBBF24;
+}
+
+.para {
+  color:white;
+  font-weight:bold;
+  padding-bottom:2rem;
+  font-size:large;
+   
+
+}
+
+.header 
+{
+    background-color: var(--primary-color);
+    text-align:center;
+    color: var(--second-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+     /* margin:auto; */
+    padding-top:1px;
+    margin-bottom:0;
+    
+}
+.container {
+   
+    padding:1rem;
+   
+
+}
+
+
+.text-area {
+    margin:auto;
+    margin-bottom: 0px;
+    padding:1rem;
+    width:600px;
+    height:130px;
+    /* text-align:center; */
+     display:block;
+     border:0.3rem solid var(--primary-color);
+     border-radius:1rem;
+     font-size:large;
+}
+.button {
+    background-color: var(--primary-color);
+    text-align:center;
+    margin:auto;
+    display:block;
+    height:40px;
+    font-size:large;
+    color:var(--second-color);
+    font-weight:bold;
+}
+.non-header {
+    background-color: var(--second-color);
+}
+.footer {
+    /* padding-top:1rem;
+    margin-top:1rem;
+    margin-bottom:1rem; */
+    background-color: var(--primary-color);
+    width:100%;
+    position:absolute;
+    bottom:0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.image{
+    margin:0 auto;
+    display:block;
+
+}
