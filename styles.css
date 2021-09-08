@@ -67,11 +67,11 @@ nav {
     margin-bottom: 0px;
     padding:1rem;
     width:600px;
-    height:130px;
+    height:132px;
     /* text-align:center; */
      display:block;
      border:0.3rem solid var(--primary-color);
-     border-radius:1rem;
+     /* border-radius:0.5rem; */
      font-size:large;
 }
 .button {
@@ -83,6 +83,7 @@ nav {
     font-size:large;
     color:var(--second-color);
     font-weight:bold;
+  
 }
 .non-header {
     background-color: var(--second-color);
